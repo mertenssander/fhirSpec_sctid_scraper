@@ -1,0 +1,9 @@
+version: '3'
+services:  
+    runner:
+        build:
+            context: '.'
+            dockerfile: 'Dockerfile'
+        volumes:
+            - './:/scripts'
+        stdin_open: true
