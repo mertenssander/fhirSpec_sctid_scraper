@@ -7,5 +7,4 @@ COPY ./ /scripts
 
 WORKDIR /scripts
 
-# ENTRYPOINT python3 generate.py
-ENTRYPOINT bash
+ENTRYPOINT python main.py
